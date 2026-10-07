@@ -56,6 +56,24 @@ paragraph&lt;/p&gt;&lt;/body&gt; &lt;/html&gt;</code></pre>
         
                 <section>
             <h2>Essential HTML Tags</h2>
+            <style>
+    table {
+      width: 100%;
+      border-collapse: collapse; 
+      font-family: Arial, sans-serif;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px; 
+      text-align: left;  
+    }
+    th {
+      background-color: #f4f4f4; 
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+  </style>
             <table>
                 <thead>
                     <tr>
@@ -97,7 +115,60 @@ paragraph&lt;/p&gt;&lt;/body&gt; &lt;/html&gt;</code></pre>
                 </tbody>
             </table>
         </section>
+        <section>
+            <h2>🎯 Live Examples:</h2>
+            <h1>This is Heading 1</h1>
+            <h2>This is Heading 2</h2>
+            <h3>This is Heading 3</h3>
+            <p>This is a paragraph with <strong>bold text</strong> and <em>italic text</em>.</p>
+            <p>Here is a link to <a href="https://www.example.com">sample link</a>.</p>
+            <p>Unordered List:</p>
+                <ul><li>First item</li><li>Second item</li><li>Third item</li></ul>
+            <p>Ordered List:</p>
+                <ol><li>Step one</li><li>Step two</li><li>Step three</li></ol> 
+        </section>
 
+        <section>
+            <h2>📝 HTML Forms</h2>
+            <p>Forms allow users to input data.</p>
+   <pre><code>&lt;form&gt;
+    &lt;label for="name"&gt;Name:&lt;/label&gt;
+    &lt;input type="text" id="name" name="name"&gt;
+    
+    &lt;label for="email"&gt;Email:&lt;/label&gt;
+    &lt;input type="email" id="email" name="email"&gt;
+    
+    &lt;label for="subject"&gt;Subject:&lt;/label&gt;
+    &lt;input type="text" id="subject" name="subject"&gt;
+    
+    &lt;label for="message"&gt;Message:&lt;/label&gt;
+    &lt;textarea id="message" name="message"&gt;&lt;/textarea&gt;
+    
+    &lt;button type="submit"&gt;Submit&lt;/button&gt;
+&lt;/form&gt;</code></pre>
+
+        <p>Example Form:</p>
+        <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    
+    <label for="subject">Subject:</label>
+    <select id="subject" name="subject">
+        <option value="question">Question</option>
+        <option value="feedback">Feedback</option>
+        <option value="suggestion">Suggestion</option>
+    </select>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message"></textarea>
+    
+    <button type="submit">Submit</button>
+</form>
+
+        </section>
     </main>
 </body>
 </html>
