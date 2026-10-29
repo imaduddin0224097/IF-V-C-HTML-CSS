@@ -5,7 +5,11 @@
 }
 
 :root {
-  --bg-gradient: linear-gradient(135deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 16%, rgba(4, 118, 193, 1) 60%, rgba(0, 212, 255, 1) 100%);
+
+  body.bg-primary.bg-gradient {
+  background: linear-gradient(135deg, #0d47a1 0%, #045364 100%) !important;
+  background-attachment: fixed !important;
+}
   --section-bg: #f4f4f4;
   --text-main: #333333;
   --text-muted: #666666;
